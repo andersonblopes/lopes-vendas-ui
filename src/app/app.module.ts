@@ -6,6 +6,7 @@ import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
+import { CurrencyMaskModule } from 'ng2-currency-mask';
 import { MessageService } from 'primeng/components/common/messageservice';
 import { TableModule } from 'primeng/table';
 import { DropdownModule } from 'primeng/dropdown';
@@ -34,6 +35,7 @@ registerLocaleData(localePt);
     HttpClientModule,
     FormsModule,
 
+    CurrencyMaskModule,
     TableModule,
     DropdownModule,
     InputTextModule,
